@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import ContactIcon from "../../components/Contact/ContactIcon";
+import RoundedButton from "../../components/RoundedButton/RoundedButton";
 import ContactData from "../../data/ContactData";
 
 function Footer() {
@@ -24,8 +25,8 @@ function Footer() {
         </div>
         <div>
           <div>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-              View Resume
+            <a href="/assets/YEE QIAN HUI-resume.pdf" download>
+              <RoundedButton Text="Download Resume" />
             </a>
           </div>
         </div>

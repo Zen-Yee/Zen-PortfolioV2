@@ -17,7 +17,9 @@ function Hero() {
           I focus on building reliable full-stack systems with clean
           architecture, secure authentication, and smooth user experiences.
         </p>
-        <RoundedButton Text="Download Resume" />
+        <a href="/assets/YEE QIAN HUI-resume.pdf" download>
+          <RoundedButton Text="Download Resume" />
+        </a>
       </div>
       <div>
         <div className="avatar-container">
