@@ -1,0 +1,21 @@
+.logo-container {
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  padding: 2%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}

@@ -1,0 +1,42 @@
+.accordian-item {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.accordian-title {
+  background-color: var(--surface);
+  display: flex;
+  padding: 5px;
+}
+
+.accordian-title > div > h4 {
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.accordian-title > div > h5 {
+  color: var(--text-secondary);
+}
+
+.accordian-title > button {
+  background-color: var(--surface);
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.accordian-description {
+  background-color: white;
+  padding: 0 30px;
+}
+
+.accordian-description > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+}
+
+.hidden {
+  display: none;
+}

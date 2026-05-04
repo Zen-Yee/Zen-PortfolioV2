@@ -1,0 +1,12 @@
+.rounded-button {
+  height: 40px;
+  border-radius: 20px;
+  border: solid 0px;
+  background-color: var(--highlight);
+  color: white;
+  font-weight: bold;
+}
+
+.rounded-button:hover {
+  background-color: var(--tertiary);
+}

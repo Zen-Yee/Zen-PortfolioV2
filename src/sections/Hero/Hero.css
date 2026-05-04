@@ -1,0 +1,52 @@
+.Hero {
+  display: flex;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+.Hero > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  gap: 20px;
+}
+
+.Title {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.Title {
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.SubHeader {
+  font-weight: bold;
+  color: var(--text-secondary);
+}
+
+.Hero :last-child {
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .Hero {
+    flex-direction: column-reverse;
+    padding-top: 50px;
+  }
+
+  .Hero > div {
+    text-align: center;
+  }
+
+  .avatar-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--tertiary);
+    border: 3px solid white;
+  }
+}

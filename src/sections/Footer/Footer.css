@@ -1,0 +1,33 @@
+footer {
+  background-color: var(--background);
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.footer-container > div {
+  width: 700px;
+  margin: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-container {
+    width: 100%;
+  }
+
+  footer {
+    padding: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container > div {
+    width: 100%;
+  }
+
+  footer {
+    padding: 5%;
+  }
+}

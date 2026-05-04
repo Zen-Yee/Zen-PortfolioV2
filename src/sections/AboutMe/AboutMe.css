@@ -1,0 +1,72 @@
+.about-me {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr auto auto;
+  gap: 20px;
+  height: auto;
+  padding: 8%;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card > p {
+  margin-bottom: 15px;
+}
+
+.my-intro > h3 {
+  color: var(--highlight);
+}
+
+.my-intro > p {
+  color: var(--text-primary);
+}
+
+.contact-container {
+  color: var(--text-primary);
+}
+
+.contact-container > div {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+  padding: 10px;
+}
+
+.my-education {
+  background-color: var(--secondary);
+  color: var(--background);
+}
+
+.my-skills {
+  background-color: var(--primary);
+  color: var(--background);
+  grid-row: 1/-2;
+  grid-column: 2;
+}
+
+.my-experiences {
+  background-color: var(--tertiary);
+  color: var(--background);
+  grid-column: 1 / -1;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    height: auto;
+  }
+}
