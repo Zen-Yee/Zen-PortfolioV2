@@ -72,13 +72,6 @@ npm run preview
 └── package.json
 ```
 
-## Deployment
-
-This project is deployed as a static site. To deploy your own copy:
-
-1. Run `npm run build` to generate the `dist/` folder.
-2. Deploy the contents of `dist/` to your static host of choice (GitHub Pages, Vercel, Netlify, etc.).
-
 ## Contact
 
 - **Email:** qhui.yee@gmail.com
