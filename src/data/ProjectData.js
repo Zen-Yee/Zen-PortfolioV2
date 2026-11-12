@@ -1,13 +1,13 @@
 const ProjectData = [
   {
     id: "01",
-    imgUrl: "/assets/BasicCalculator.png",
-    projectTitle: "Basic Calculator",
+    imgUrl: "/assets/Zenlogue.png",
+    projectTitle: "Zenlogue",
     projectDescription:
-      "A basic calculator built purely with HTML, CSS and Javascript that can perform basic calcution such as add, subtract, multiply and divide.",
-    projectTechStack: "HTML, CSS, Javascript",
-    projectLiveSite: "https://zen-yee.github.io/Basic-Calculator/",
-    projectGitHub: "https://github.com/Zen-Yee/Basic-Calculator",
+      "A full-stack blog application built with React, Express, and PostgreSQL. This project is my primary learning vehicle for full-stack and AI-integrated web development.",
+    projectTechStack: "React, Axios, Node.js, Express, PostgreSQL, API, JWT",
+    projectLiveSite: "https://zenlogue.vercel.app/",
+    projectGitHub: "https://github.com/Zen-Yee/Zenlogue",
   },
   {
     id: "02",
@@ -16,7 +16,7 @@ const ProjectData = [
     projectDescription:
       "A responsive web application that fetches live weather data from WeatherAPI based on the user’s selected city.",
     projectTechStack: "HTML, CSS, Javascript, Node.js, Express, API",
-    projectLiveSite: "https://zen-yee.github.io/Basic-Weather-App/",
+    projectLiveSite: "",
     projectGitHub: "https://github.com/Zen-Yee/Basic-Weather-App",
   },
 ];

@@ -12,7 +12,10 @@ function ProjectCard(props) {
         <h3>{props.projectTitle}</h3>
         <p>{props.projectTechStack}</p>
         <div className="link-container">
-          <LinkText Link={props.projectLiveSite} Text="Live Site" />
+          {props.projectLiveSite && (
+            <LinkText Link={props.projectLiveSite} Text="Live Site" />
+          )}
+
           <LinkText Link={props.projectGitHub} Text="GitHub" />
         </div>
       </div>
